@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   get '/logs/display', to: 'logs#display', as: 'display' 
 
+  get '/logs/detail' , to: 'logs#detail',  as: 'detail'
+
 end
